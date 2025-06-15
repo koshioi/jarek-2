@@ -1,8 +1,8 @@
 // Web chat z symulowaną SI "alternatywnego badacza" – ulepszona wersja z dodatkowymi teoriami i tłem z kosmicznymi kotami i lodami
 import { useState } from "react";
-import { Card, CardContent } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "./components/ui/card";
+import { Input } from "./components/ui/input";
+import { Button } from "./components/ui/button";
 
 export default function ConspiracyChat() {
   const [isMuted, setIsMuted] = useState(false);
